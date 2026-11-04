@@ -1,0 +1,54 @@
+{
+  "hide": [
+    "ChanseyIsTheBest.github.io",
+    "FPSLocker",
+    "FPSLocker-Warehouse",
+    "IPSwitch-MegaMix-Patches",
+    "NX-60FPS-RES-GFX-Cheats",
+    "NX-IPS-romfs-compilation",
+    "SaltyNX",
+    "SwitchPorts",
+    "mesa-switch",
+    "pokerogue",
+    "ryujinx",
+    "skate3recomp-nx",
+    "wagic"
+  ],
+  "games_in_one_repo": {
+    "MBHaxe-Switch": {
+      "marble-blast-gold": "Marble Blast Gold",
+      "marble-blast-platinum": "Marble Blast Platinum",
+      "marble-blast-platinumquest": "Platinum Quest",
+      "marble-blast-ultra": "Marble Blast Ultra"
+    }
+  },
+  "titles": {
+    "bangaio-nx": "Bangai-O HD: Missile Fury",
+    "marble-blast-platinumquest": "Marble Blast PlatinumQuest",
+    "nights-nx": "NiGHTS into Dreams...",
+    "renut-nx": "Banjo-Kazooie: Nuts & Bolts",
+    "pvz_fusion_en_nx": "Plants vs. Zombies Fusion",
+    "pvz_ultimate_nx": "Plants vs. Zombies Ultimate"
+  },
+  "descriptions": {
+    "MarathonRecomp-NX": "An unofficial Switch homebrew port of the Xbox 360 version of Sonic the Hedgehog (2006), created through static recompilation.",
+    "marble-blast-gold": "Marble Blast Gold on Switch, built from MBHaxe, a Haxe port of the Marble Blast games.",
+    "marble-blast-platinum": "Marble Blast Platinum on Switch, built from MBHaxe, a Haxe port of the Marble Blast games. Multiplayer isn't supported.",
+    "marble-blast-platinumquest": "PlatinumQuest on Switch, built from MBHaxe, a Haxe port of the Marble Blast games.",
+    "marble-blast-ultra": "Marble Blast Ultra on Switch, built from MBHaxe, a Haxe port of the Marble Blast games. Multiplayer isn't supported yet."
+  },
+  "needs": {
+    "burgershop2_nx": "You must own Burger Shop 2 on Android.",
+    "guwange-nx": "You need your own copy of the game, dumped from your own console.",
+    "ketsui-nx": "You need your own copy of the game, dumped from your own disc.",
+    "keflings-nx": "You need your own copy of the game: its Xbox Live Arcade package from an Xbox 360, and title update 2.",
+    "nights-nx": "You need your own copy of the game: its Xbox Live Arcade package from an Xbox 360, and its title update.",
+    "poinpy_nx": "You need files from POINPY 1.1.17, which is a free download from its official listing.",
+    "revolt_nx": "You need the RVGL 23.1030a1 APK."
+  },
+  "family": {
+    "renut-nx": "recomp",
+    "MBHaxe-Switch": "native",
+    "insaniquarium_nx": "native"
+  }
+}
