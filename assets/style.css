@@ -39,6 +39,10 @@
 
 html { background: var(--bg); -webkit-text-size-adjust: 100%; }
 
+/* No visible scrollbars. Wheel, touch and keyboard scrolling still work. */
+html, .detail { scrollbar-width: none; }
+html::-webkit-scrollbar, .detail::-webkit-scrollbar { display: none; }
+
 body {
   margin: 0;
   padding-inline: var(--rail);
