@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T13:23:27Z",
+ "generated": "2026-11-04T13:29:41Z",
  "owner": {
   "login": "ChanseyIsTheBest",
   "bio": "The ultimate Switch vibe porter",
@@ -632,7 +632,7 @@
    "repo": "futari-nx",
    "title": "Mushihimesama Futari",
    "family": "recomp",
-   "description": "Mushihimesama Futari Ver 1.5 (Xbox 360) running natively on Nintendo Switch: static recompilation with ReXGlue and a native Vulkan renderer, with the Black Label and Ver 1.01 DLC",
+   "description": "Mushihimesama Futari Ver 1.5 (Xbox 360) running natively on Nintendo Switch: static recompilation with ReXGlue and a native deko3d renderer, with the Black Label and Ver 1.01 DLC",
    "tech": null,
    "needs": "You need your own copy of the Xbox 360 disc (a disc image, .iso).",
    "stars": 3,
@@ -1388,7 +1388,7 @@
    "repo": "peggle2-nx",
    "title": "Peggle 2",
    "family": "recomp",
-   "description": "Peggle 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native Vulkan renderer, with the PS4 Magical Masters content (Windy, Jimmy, their areas and costumes) and 1080p art",
+   "description": "Peggle 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native deko3d renderer, with the PS4 Magical Masters content (Windy, Jimmy, their areas and costumes) and 1080p art",
    "tech": null,
    "needs": "You need your own copies of both games.",
    "stars": 7,
