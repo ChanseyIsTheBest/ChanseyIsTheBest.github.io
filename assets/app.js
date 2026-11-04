@@ -36,7 +36,6 @@ function el(tag, attrs = {}, ...children) {
 const released = (p) => new Date(p.released);
 const fmtDate = (d) => d.toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
 const fmtSize = (b) => (b >= 1048576 ? `${(b / 1048576).toFixed(1)} MB` : `${Math.round(b / 1024)} KB`);
-const plural = (n, word) => `${nf.format(n)} ${word}${n === 1 ? "" : "s"}`;
 
 /* ---------- tiles ---------- */
 
@@ -56,7 +55,7 @@ const tilesIn = (box) => [...box.querySelectorAll(".tile")];
 function select(t, { focus = false } = {}) {
   if (selected && selected !== t) selected.classList.remove("is-selected");
   selected = t;
-  if (!t) { renderStatus(null); return; }
+  if (!t) return;
   t.classList.add("is-selected");
 
   // Roving tabindex: each group is one tab stop.
@@ -65,7 +64,6 @@ function select(t, { focus = false } = {}) {
   if (focus) t.focus({ preventScroll: true });
 
   placeName(t);
-  renderStatus(byId.get(t.dataset.id));
 }
 
 /* Keep the floating name on screen (and inside the row, which clips). */
@@ -81,13 +79,6 @@ function placeName(t) {
   if (rect.left < edge.left + margin) shift = edge.left + margin - rect.left;
   else if (rect.right > edge.right - margin) shift = edge.right - margin - rect.right;
   name.style.setProperty("--shift", `${shift}px`);
-}
-
-function renderStatus(p) {
-  const box = $("status");
-  box.replaceChildren();
-  if (!p) return;
-  box.append(el("b", {}, p.title), el("span", {}, `${p.version} · ${plural(p.downloads, "download")}`));
 }
 
 function nudge(t, x, y) {
@@ -202,7 +193,6 @@ function renderControls() {
     b.addEventListener("click", () => { state.sort = key; renderControls(); renderGrid(); });
     return b;
   }));
-  $("sort-hint").textContent = `Sort: ${SORTS[state.sort].label}`;
 }
 
 function cycleSort() {

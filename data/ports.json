@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T13:15:34Z",
+ "generated": "2026-11-04T13:23:27Z",
  "owner": {
   "login": "ChanseyIsTheBest",
   "bio": "The ultimate Switch vibe porter",
@@ -1640,7 +1640,7 @@
    "repo": "sa2-nx",
    "title": "Sonic Adventure 2",
    "family": "recomp",
-   "description": "Sonic Adventure 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native Vulkan renderer, 60 FPS at stock clocks",
+   "description": "Sonic Adventure 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native deko3d renderer, 60 FPS at stock clocks",
    "tech": null,
    "needs": "You need your own copy of the Xbox Live Arcade game: its content package from an Xbox 360.",
    "stars": 23,

@@ -31,6 +31,7 @@
     "pvz_ultimate_nx": "Plants vs. Zombies Ultimate"
   },
   "descriptions": {
+    "sa2-nx": "Sonic Adventure 2 (Xbox Live Arcade) running natively on Nintendo Switch: static recompilation with ReXGlue and a native deko3d renderer, 60 FPS at stock clocks",
     "MarathonRecomp-NX": "An unofficial Switch homebrew port of the Xbox 360 version of Sonic the Hedgehog (2006), created through static recompilation.",
     "marble-blast-gold": "Marble Blast Gold on Switch, built from MBHaxe, a Haxe port of the Marble Blast games.",
     "marble-blast-platinum": "Marble Blast Platinum on Switch, built from MBHaxe, a Haxe port of the Marble Blast games. Multiplayer isn't supported.",
