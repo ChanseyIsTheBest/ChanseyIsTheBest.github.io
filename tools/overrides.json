@@ -44,7 +44,8 @@
     "keflings-nx": "You need your own copy of the game: its Xbox Live Arcade package from an Xbox 360, and title update 2.",
     "nights-nx": "You need your own copy of the game: its Xbox Live Arcade package from an Xbox 360, and its title update.",
     "poinpy_nx": "You need files from POINPY 1.1.17, which is a free download from its official listing.",
-    "revolt_nx": "You need the RVGL 23.1030a1 APK."
+    "revolt_nx": "You need the RVGL 23.1030a1 APK.",
+    "sasrt-nx": "You need your own copy of the game, from your own Xbox 360: the disc image or the Games on Demand package (the Bonus Pack DLC is optional)."
   },
   "family": {
     "renut-nx": "recomp",
